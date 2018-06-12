@@ -6,6 +6,6 @@ string.each_char do |char|
 if ("a".."z").include? (char.downcase)
 num.times {char=char.next}
 end
-result_string.push(char)
+result_string.push(char[-1])
 end
 puts result_string.join
