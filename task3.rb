@@ -25,8 +25,8 @@ sum=first_time+second_time
  mins = sum % 60
  sum /= 60
  hrs = sum % 24
-texts(hrs,"Час","Часа","Часов")
-texts(mins,"Минута","Минуты","Минут")
-texts(sec,"Секунда","Секунды","Секунд")
+texts(hrs,час","часа","часов")
+texts(mins,"минута","минуты","минут")
+texts(sec,"секунда","секунды","секунд")
 
 puts @result.join(" ")
