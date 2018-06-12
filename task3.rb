@@ -25,7 +25,7 @@ sum=first_time+second_time
  mins = sum % 60
  sum /= 60
  hrs = sum % 24
-texts(hrs,час","часа","часов")
+texts(hrs,"час","часа","часов")
 texts(mins,"минута","минуты","минут")
 texts(sec,"секунда","секунды","секунд")
 
